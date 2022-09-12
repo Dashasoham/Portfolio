@@ -1,3 +1,30 @@
 body {
-  background-color: rgb(210, 145, 46);
+}
+
+h3 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+}
+h1 {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 20px;
+}
+p {
+  font-size: 12px;
+}
+.hero {
+  background-color: #e3aca3;
+  text-align: center;
+  padding: 100px 10px;
+  font-family: Poppins;
+}
+.btn {
+  background-color: #845ec2;
+  border: none;
+  padding: 5px 25px;
+  color: white;
+  font-size: 10px;
 }
