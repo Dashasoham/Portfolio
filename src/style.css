@@ -1,12 +1,10 @@
 :root {
   --primary-color: #e3aca3;
-  --secondary-color: #845ec2;
+  --secondary-color: #a07e96;
   --title-font: Playfair Display;
   --secondary-font: Poppins;
 }
-body {
-  margin: 0;
-}
+
 h3 {
   font-family: var(--secondary-font);
   font-size: 24px;
@@ -37,8 +35,8 @@ i {
 }
 .img-fluid-1 {
   max-width: 100%;
-
   border-radius: 5px;
+  border: bisque;
 }
 
 .img-fluid-2 {
