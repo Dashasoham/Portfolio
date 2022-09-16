@@ -34,8 +34,8 @@ i {
   font-family: var(--secondary-font);
 }
 .projects {
-  max-width: 1100px;
-
+  margin-top: 80px;
+  margin-bottom: 100px;
   padding: 0px 20px;
 }
 .img-fluid-1 {
