@@ -33,6 +33,11 @@ i {
   padding: 100px 10px;
   font-family: var(--secondary-font);
 }
+.projects {
+  max-width: 1100px;
+
+  padding: 0px 20px;
+}
 .img-fluid-1 {
   max-width: 100%;
   border-radius: 5px;
@@ -57,10 +62,6 @@ i {
 #my-projects-main-text {
   margin-top: 30px;
 }
-#my-projects {
-  margin-top: 80px;
-  margin-bottom: 100px;
-}
 
 #footer {
   display: block;
@@ -68,6 +69,7 @@ i {
   background-color: var(--primary-color);
   border-radius: 10px;
 }
+
 @media (max-width: 900px) {
   img {
     display: none;
