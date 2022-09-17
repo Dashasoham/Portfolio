@@ -17,6 +17,7 @@ h1 {
 }
 h2 {
   font-family: var(--title-font);
+  line-height: 2;
 }
 p {
   font-size: 16px;
@@ -26,6 +27,9 @@ i {
   font-size: 25px;
   color: var(--secondary-color);
 }
+a {
+  color: #000;
+}
 
 .hero {
   background-color: var(--primary-color);
@@ -33,20 +37,14 @@ i {
   padding: 100px 10px;
   font-family: var(--secondary-font);
 }
-.projects {
-  margin-top: 80px;
-  margin-bottom: 100px;
-  padding: 0px 20px;
+.about-hero {
+  background-color: white;
+  text-align: center;
+  padding: 100px 10px;
+  font-family: var(--secondary-font);
 }
-.img-fluid-1 {
+.img-fluid {
   max-width: 100%;
-  border-radius: 5px;
-  border: bisque;
-}
-
-.img-fluid-2 {
-  max-width: 100%;
-
   border-radius: 5px;
 }
 
@@ -58,9 +56,18 @@ i {
   color: white;
   font-size: 16px;
 }
-
+.contact {
+  background-color: var(--primary-color);
+}
+.contact-images {
+  display: block;
+  text-align: center;
+  color: #000;
+}
 #my-projects-main-text {
   margin-top: 30px;
+
+  margin-bottom: 50px;
 }
 
 #footer {
@@ -73,5 +80,9 @@ i {
 @media (max-width: 900px) {
   img {
     display: none;
+  }
+  .projects {
+    margin: 0px;
+    padding: 0px;
   }
 }
