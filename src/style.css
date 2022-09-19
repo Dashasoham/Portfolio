@@ -55,6 +55,9 @@ nav a:hover {
   border-radius: 3px;
   padding: 4px;
 }
+.active {
+  text-decoration: underline;
+}
 .hero {
   background-color: var(--primary-color);
   text-align: center;
@@ -76,9 +79,13 @@ nav a:hover {
   background-color: var(--secondary-color);
   border: none;
   margin-top: 40px;
-  padding: 5px 30px;
+  padding: 5px 15px;
   color: white;
   font-size: 16px;
+}
+.btn a {
+  color: white;
+  text-decoration: none;
 }
 .btn-default:hover {
   background-color: var(--extra-color) !important;
@@ -94,16 +101,21 @@ nav a:hover {
 .contact-images a {
   text-decoration: none;
 }
-.contact-images a:hover {
+.email-link {
+  text-decoration: none;
+}
+.contact-images a:hover,
+.email-link:hover {
   color: var(--extra-color);
 }
-.linkedin {
-  padding-left: 10px;
-}
+
 #my-projects-main-text {
   margin-top: 30px;
 
   margin-bottom: 50px;
+}
+.contact-linkedin {
+  margin-left: 10px;
 }
 
 #footer {
