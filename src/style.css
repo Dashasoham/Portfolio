@@ -36,6 +36,7 @@ i {
 }
 a {
   color: #000;
+  text-decoration: none;
 }
 nav {
   padding: 10px 20px 30px;
@@ -46,7 +47,6 @@ nav li {
   padding-left: 40px;
 }
 nav a {
-  text-decoration: none;
   border: 5px solid transparent;
 }
 nav a:hover {
@@ -54,6 +54,9 @@ nav a:hover {
   border: 1px solid var(--extra-color);
   border-radius: 3px;
   padding: 4px;
+}
+.github:hover {
+  color: var(--extra-color) !important;
 }
 .active {
   text-decoration: underline;
