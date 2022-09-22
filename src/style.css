@@ -9,6 +9,7 @@
 }
 body {
   background-color: var(--main-background);
+  max-width: 1600px;
 }
 
 h3 {
